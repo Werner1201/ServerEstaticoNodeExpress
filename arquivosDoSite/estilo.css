@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background: darkcyan;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 30px;
+    padding: 10px;
+    
+}
+
+nav p {
+    color: aliceblue;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-self: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.textoPrincipal {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-flow: column;
+    flex-grow: 1;
+}
+
+.itens {
+    margin: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 20px;
+    background: blue;
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    background: darkgoldenrod;
+    flex-shrink: 0;
+    margin-top: 350px;
+}
